@@ -19,6 +19,9 @@ class ElementsClass extends Component {
     getData = (e) => {
         this.setState({ txt: e.target.value })
     }
+    reset =()=>{
+         this.setState({ txt: "" })
+    }
     constructor() {
         super();
         this.state = {
@@ -36,6 +39,7 @@ class ElementsClass extends Component {
                     onChange={this.getData}
                 /><br></br>
                 <input readOnly style={this.Styles.style1} type='text' value={this.state.txt} />
+           <div>  <button onClick={this.reset}>Reset</button></div>   
             </div>
         )
     }
