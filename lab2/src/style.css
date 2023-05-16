@@ -1,0 +1,110 @@
+.header {
+  background-color: black;
+  font: bold;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  /* align-content:space-evenly; */
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.headerComp {
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.headerComp:hover {
+  transform: scale(1.10);
+}
+
+input {
+  padding: 10px;
+  border-color: solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #04AA6D;
+  margin-bottom: 5px;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+.reg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 10px 10px 5px lightblue;
+  padding: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.table td,
+.table th {
+  border: 1px solid ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+}
+.image{
+  margin-top: 10px;
+}
