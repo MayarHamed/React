@@ -1,7 +1,7 @@
 let Students = function ({ list }) {
     let RenderStudents = (All) => {
         if (All) {
-            return All.map((student) => {
+            return All.map((student) => {  //loops on array like a foreach loop
                 return (
                     <tr key={student.email}>
                         <td>{student.name}</td>
